@@ -22,7 +22,7 @@ The materials used are:
 ## Circuit
 Consult the datasheet of your components to get the right pinout.  
 
-The Fritzing file with the schematic can be found in the /docs folder.
+The Fritzing file with the schematic can be found in the /doc folder.
 
 ![alt text](https://github.com/gustavoaguilar/IRLock/blob/master/doc/IRLock_Sketch_bb.png "Circuit")
 
@@ -31,7 +31,7 @@ The Fritzing file with the schematic can be found in the /docs folder.
 ## Code
 IRLock was written with the Visual Studio Code PlatformIO extension, but the code was ported(removed the **#include<Arduino.h>** line) to Arduino IDE for more convenience.
 
-To make the prototyping faster, I used libraries, but it came with a drawback, I lost the control of the timers from the microcontroller, because of that, lost the possibility to use the "tone" function, so I got the myTone () code from the user @jurs  at this [arduino forum topic](https://forum.arduino.cc/index.php?topic=339625.0).
+To make the prototyping faster, I used libraries, but it came with a drawback, I lost the control of the timers from the microcontroller, because of that, lost the possibility to use the "tone" function, so I got the *myTone()* code from the user @jurs  at this [arduino forum topic](https://forum.arduino.cc/index.php?topic=339625.0).
 
 ### Dependencies
 These are the needed libraries:
