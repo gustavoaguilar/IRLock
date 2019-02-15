@@ -3,7 +3,6 @@
 ## Introduction
 This project consists in a digital lock, that takes input from an IR remote control and compare passwords, if the password checks, the lock opens or closes, there are a buzzer for sounds, LCD for visualization and a servo for simulating the "action".
 	
----
 
 ## Materials
 The materials used are:
@@ -17,7 +16,6 @@ The materials used are:
 * Jumpers
 * Breadboard
 
----
 
 ## Circuit
 Consult the datasheet of your components to get the right pinout.  
@@ -26,7 +24,6 @@ The Fritzing file with the schematic can be found in the /doc folder.
 
 ![alt text](https://github.com/gustavoaguilar/IRLock/blob/master/doc/IRLock_Sketch_bb.png "Circuit")
 
----
 
 ## Code
 IRLock was written with the Visual Studio Code PlatformIO extension, but the code was ported(removed the **#include<Arduino.h>** line) to Arduino IDE for more convenience.
@@ -69,13 +66,11 @@ To make life easier, these are the positions of the vector:
 * [11] is the **Enter** button
 * [12] is the **New Password** button
 
----
 
 ## Issues
 
 1. Sometimes the system detects the IR signal, but can't decode it correctly. (probably a remote control problem)
 
----
 
 ## Contribute
 If you have any suggestion to improve this project, let me know. :)
