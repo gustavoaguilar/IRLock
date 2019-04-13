@@ -3,6 +3,7 @@
 ## Introduction
 This project consists in a digital lock, that takes input from an IR remote control and compare passwords, if the password checks, the lock opens or closes, there are a buzzer for sounds, LCD for visualization and a servo for simulating the "action".
 	
+There is a [video](https://youtu.be/OTR_qag6zV8) demonstrating the project.
 
 ## Materials
 The materials used are:
